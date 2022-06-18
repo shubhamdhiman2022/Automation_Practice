@@ -1,0 +1,382 @@
+2022-05-26 16:43:07,395 [main] INFO END TO END API TEST - ---------------Start createAirlineAPI Test----------------
+2022-05-26 16:43:09,427 [main] INFO END TO END API TEST - Status Code: 200
+2022-05-26 16:43:09,443 [main] INFO END TO END API TEST - Response Time: 1
+2022-05-26 16:43:09,513 [main] INFO END TO END API TEST - {
+    "_id": "628f60c5db296b01860d9fed",
+    "id": 5364,
+    "name": "QA Railway",
+    "country": "USA",
+    "logo": "https://picsum.test/200",
+    "slogan": "Be Extensive be Aggorant",
+    "head_quaters": "Brazil, Usa",
+    "website": "www.testwebsite.com",
+    "established": "1998",
+    "__v": 0
+}
+2022-05-26 16:43:10,205 [main] INFO END TO END API TEST - ---------------Start getAirlineByIdAPI Test----------------
+2022-05-26 16:43:10,997 [main] INFO END TO END API TEST - Status Code: 200
+2022-05-26 16:43:10,998 [main] INFO END TO END API TEST - Response Time: 0
+2022-05-26 16:43:11,000 [main] INFO END TO END API TEST - {
+    "id": 5364,
+    "name": "QA Railway",
+    "country": "USA",
+    "logo": "https://picsum.test/200",
+    "slogan": "Be Extensive be Aggorant",
+    "head_quaters": "Brazil, Usa",
+    "website": "www.testwebsite.com",
+    "established": "1998"
+}
+2022-05-26 16:43:11,005 [main] INFO END TO END API TEST - ---------------Start createPassengerAPI Test----------------
+2022-05-26 16:43:11,814 [main] INFO END TO END API TEST - Status Code: 200
+2022-05-26 16:43:11,815 [main] INFO END TO END API TEST - Response Time: 0
+2022-05-26 16:43:11,819 [main] INFO END TO END API TEST - {
+    "_id": "628f60c8db296b007e0d9ff1",
+    "name": "QA Shubham Test",
+    "trips": 25,
+    "airline": [
+        {
+            "_id": "628f60c5db296b01860d9fed",
+            "id": 5364,
+            "name": "QA Railway",
+            "country": "USA",
+            "logo": "https://picsum.test/200",
+            "slogan": "Be Extensive be Aggorant",
+            "head_quaters": "Brazil, Usa",
+            "website": "www.testwebsite.com",
+            "established": "1998",
+            "__v": 0
+        }
+    ],
+    "__v": 0
+}
+2022-05-26 16:43:11,854 [main] INFO END TO END API TEST - ---------------Start getPassengerByIdAPI Test----------------
+2022-05-26 16:43:12,588 [main] INFO END TO END API TEST - Status Code: 200
+2022-05-26 16:43:12,589 [main] INFO END TO END API TEST - Response Time: 0
+2022-05-26 16:43:12,592 [main] INFO END TO END API TEST - {
+    "_id": "628f60c8db296b007e0d9ff1",
+    "name": "QA Shubham Test",
+    "trips": 25,
+    "airline": [
+        {
+            "_id": "628f60c5db296b01860d9fed",
+            "id": 5364,
+            "name": "QA Railway",
+            "country": "USA",
+            "logo": "https://picsum.test/200",
+            "slogan": "Be Extensive be Aggorant",
+            "head_quaters": "Brazil, Usa",
+            "website": "www.testwebsite.com",
+            "established": "1998",
+            "__v": 0
+        }
+    ],
+    "__v": 0
+}
+2022-05-26 16:43:12,599 [main] INFO END TO END API TEST - ---------------Start updatePassengerPartialAPI Test----------------
+2022-05-26 16:43:13,347 [main] INFO END TO END API TEST - Status Code: 200
+2022-05-26 16:43:13,348 [main] INFO END TO END API TEST - Response Time: 0
+2022-05-26 16:43:13,349 [main] INFO END TO END API TEST - {
+    "message": "Passenger data updated successfully."
+}
+2022-05-26 16:43:13,354 [main] INFO END TO END API TEST - ---------------Start updatePassengeFullyAPI Test----------------
+2022-05-26 16:43:14,150 [main] INFO END TO END API TEST - Status Code: 200
+2022-05-26 16:43:14,151 [main] INFO END TO END API TEST - Response Time: 0
+2022-05-26 16:43:14,152 [main] INFO END TO END API TEST - {
+    "message": "Passenger data put successfully completed."
+}
+2022-05-26 16:43:14,158 [main] INFO END TO END API TEST - ---------------Start deletePassenger Test----------------
+2022-05-26 16:43:14,891 [main] INFO END TO END API TEST - Status Code: 200
+2022-05-26 16:43:14,892 [main] INFO END TO END API TEST - Response Time: 0
+2022-05-26 16:43:14,892 [main] INFO END TO END API TEST - {
+    "message": "Passenger data deleted successfully."
+}
+2022-05-26 16:43:14,895 [main] INFO END TO END API TEST - ---------------Start getAllPassengersData Test----------------
+2022-05-26 16:43:15,655 [main] INFO END TO END API TEST - Status Code: 200
+2022-05-26 16:43:15,656 [main] INFO END TO END API TEST - Response Time: 0
+2022-05-26 16:43:15,664 [main] INFO END TO END API TEST - {
+    "totalPassengers": 111191,
+    "totalPages": 22239,
+    "data": [
+        {
+            "_id": "6060059adb9a53660069ddeb",
+            "name": "John Doe",
+            "trips": 250,
+            "airline": [
+                {
+                    "id": 5,
+                    "name": "Eva Air",
+                    "country": "Taiwan",
+                    "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/ed/EVA_Air_logo.svg/250px-EVA_Air_logo.svg.png",
+                    "slogan": "Sharing the World, Flying Together",
+                    "head_quaters": "376, Hsin-Nan Rd., Sec. 1, Luzhu, Taoyuan City, Taiwan",
+                    "website": "www.evaair.com",
+                    "established": "1989"
+                }
+            ],
+            "__v": 0
+        },
+        {
+            "_id": "606005badb9a53405069ddec",
+            "name": "John Doe",
+            "trips": 250,
+            "airline": [
+                {
+                    "id": 5,
+                    "name": "Eva Air",
+                    "country": "Taiwan",
+                    "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/ed/EVA_Air_logo.svg/250px-EVA_Air_logo.svg.png",
+                    "slogan": "Sharing the World, Flying Together",
+                    "head_quaters": "376, Hsin-Nan Rd., Sec. 1, Luzhu, Taoyuan City, Taiwan",
+                    "website": "www.evaair.com",
+                    "established": "1989"
+                }
+            ],
+            "__v": 0
+        },
+        {
+            "_id": "60600687db9a53b68269dded",
+            "name": "John Doe",
+            "trips": 250,
+            "airline": [
+                {
+                    "id": 5,
+                    "name": "Eva Air",
+                    "country": "Taiwan",
+                    "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/ed/EVA_Air_logo.svg/250px-EVA_Air_logo.svg.png",
+                    "slogan": "Sharing the World, Flying Together",
+                    "head_quaters": "376, Hsin-Nan Rd., Sec. 1, Luzhu, Taoyuan City, Taiwan",
+                    "website": "www.evaair.com",
+                    "established": "1989"
+                }
+            ],
+            "__v": 0
+        },
+        {
+            "_id": "606007fedb9a53328e69ddee",
+            "name": "John Doe",
+            "trips": 250,
+            "airline": [
+                {
+                    "id": 5,
+                    "name": "Eva Air",
+                    "country": "Taiwan",
+                    "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/ed/EVA_Air_logo.svg/250px-EVA_Air_logo.svg.png",
+                    "slogan": "Sharing the World, Flying Together",
+                    "head_quaters": "376, Hsin-Nan Rd., Sec. 1, Luzhu, Taoyuan City, Taiwan",
+                    "website": "www.evaair.com",
+                    "established": "1989"
+                }
+            ],
+            "__v": 0
+        },
+        {
+            "_id": "60600aa2db9a5365c369ddef",
+            "name": "John Doe",
+            "trips": 250,
+            "airline": [
+                {
+                    "id": 5,
+                    "name": "Eva Air",
+                    "country": "Taiwan",
+                    "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/ed/EVA_Air_logo.svg/250px-EVA_Air_logo.svg.png",
+                    "slogan": "Sharing the World, Flying Together",
+                    "head_quaters": "376, Hsin-Nan Rd., Sec. 1, Luzhu, Taoyuan City, Taiwan",
+                    "website": "www.evaair.com",
+                    "established": "1989"
+                }
+            ],
+            "__v": 0
+        }
+    ]
+}
+2022-05-26 16:50:09,521 [main] INFO API Collection Test - ---------------Start createAirlineAPI Test----------------
+2022-05-26 16:50:11,641 [main] INFO API Collection Test - Status Code: 200
+2022-05-26 16:50:11,644 [main] INFO API Collection Test - Response Time: 1639
+2022-05-26 16:50:11,710 [main] INFO API Collection Test - {
+    "_id": "628f626cdb296b17ce0da008",
+    "id": 7856,
+    "name": "QA Railway",
+    "country": "USA",
+    "logo": "https://picsum.test/200",
+    "slogan": "Be Extensive be Aggorant",
+    "head_quaters": "Brazil, Usa",
+    "website": "www.testwebsite.com",
+    "established": "1998",
+    "__v": 0
+}
+2022-05-26 16:50:12,400 [main] INFO API Collection Test - ---------------Start getAirlineByIdAPI Test----------------
+2022-05-26 16:50:14,275 [main] INFO API Collection Test - Status Code: 200
+2022-05-26 16:50:14,276 [main] INFO API Collection Test - Response Time: 1858
+2022-05-26 16:50:14,279 [main] INFO API Collection Test - {
+    "id": 7856,
+    "name": "QA Railway",
+    "country": "USA",
+    "logo": "https://picsum.test/200",
+    "slogan": "Be Extensive be Aggorant",
+    "head_quaters": "Brazil, Usa",
+    "website": "www.testwebsite.com",
+    "established": "1998"
+}
+2022-05-26 16:50:14,284 [main] INFO API Collection Test - ---------------Start createPassengerAPI Test----------------
+2022-05-26 16:50:15,727 [main] INFO API Collection Test - Status Code: 200
+2022-05-26 16:50:15,728 [main] INFO API Collection Test - Response Time: 1433
+2022-05-26 16:50:15,731 [main] INFO API Collection Test - {
+    "_id": "628f6270db296b0ebc0da00c",
+    "name": "QA Shubham Test",
+    "trips": 25,
+    "airline": [
+        {
+            "_id": "628f626cdb296b17ce0da008",
+            "id": 7856,
+            "name": "QA Railway",
+            "country": "USA",
+            "logo": "https://picsum.test/200",
+            "slogan": "Be Extensive be Aggorant",
+            "head_quaters": "Brazil, Usa",
+            "website": "www.testwebsite.com",
+            "established": "1998",
+            "__v": 0
+        }
+    ],
+    "__v": 0
+}
+2022-05-26 16:50:15,764 [main] INFO API Collection Test - ---------------Start getPassengerByIdAPI Test----------------
+2022-05-26 16:50:16,578 [main] INFO API Collection Test - Status Code: 200
+2022-05-26 16:50:16,579 [main] INFO API Collection Test - Response Time: 808
+2022-05-26 16:50:16,582 [main] INFO API Collection Test - {
+    "_id": "628f6270db296b0ebc0da00c",
+    "name": "QA Shubham Test",
+    "trips": 25,
+    "airline": [
+        {
+            "_id": "628f626cdb296b17ce0da008",
+            "id": 7856,
+            "name": "QA Railway",
+            "country": "USA",
+            "logo": "https://picsum.test/200",
+            "slogan": "Be Extensive be Aggorant",
+            "head_quaters": "Brazil, Usa",
+            "website": "www.testwebsite.com",
+            "established": "1998",
+            "__v": 0
+        }
+    ],
+    "__v": 0
+}
+2022-05-26 16:50:16,589 [main] INFO API Collection Test - ---------------Start updatePassengerPartialAPI Test----------------
+2022-05-26 16:50:17,417 [main] INFO API Collection Test - Status Code: 200
+2022-05-26 16:50:17,418 [main] INFO API Collection Test - Response Time: 814
+2022-05-26 16:50:17,419 [main] INFO API Collection Test - {
+    "message": "Passenger data updated successfully."
+}
+2022-05-26 16:50:17,421 [main] INFO API Collection Test - ---------------Start updatePassengeFullyAPI Test----------------
+2022-05-26 16:50:18,291 [main] INFO API Collection Test - Status Code: 200
+2022-05-26 16:50:18,292 [main] INFO API Collection Test - Response Time: 865
+2022-05-26 16:50:18,293 [main] INFO API Collection Test - {
+    "message": "Passenger data put successfully completed."
+}
+2022-05-26 16:50:18,298 [main] INFO API Collection Test - ---------------Start deletePassenger Test----------------
+2022-05-26 16:50:19,121 [main] INFO API Collection Test - Status Code: 200
+2022-05-26 16:50:19,122 [main] INFO API Collection Test - Response Time: 817
+2022-05-26 16:50:19,124 [main] INFO API Collection Test - {
+    "message": "Passenger data deleted successfully."
+}
+2022-05-26 16:50:19,128 [main] INFO API Collection Test - ---------------Start getAllPassengersData Test----------------
+2022-05-26 16:50:19,983 [main] INFO API Collection Test - Status Code: 200
+2022-05-26 16:50:19,984 [main] INFO API Collection Test - Response Time: 842
+2022-05-26 16:50:19,991 [main] INFO API Collection Test - {
+    "totalPassengers": 111191,
+    "totalPages": 22239,
+    "data": [
+        {
+            "_id": "6060059adb9a53660069ddeb",
+            "name": "John Doe",
+            "trips": 250,
+            "airline": [
+                {
+                    "id": 5,
+                    "name": "Eva Air",
+                    "country": "Taiwan",
+                    "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/ed/EVA_Air_logo.svg/250px-EVA_Air_logo.svg.png",
+                    "slogan": "Sharing the World, Flying Together",
+                    "head_quaters": "376, Hsin-Nan Rd., Sec. 1, Luzhu, Taoyuan City, Taiwan",
+                    "website": "www.evaair.com",
+                    "established": "1989"
+                }
+            ],
+            "__v": 0
+        },
+        {
+            "_id": "606005badb9a53405069ddec",
+            "name": "John Doe",
+            "trips": 250,
+            "airline": [
+                {
+                    "id": 5,
+                    "name": "Eva Air",
+                    "country": "Taiwan",
+                    "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/ed/EVA_Air_logo.svg/250px-EVA_Air_logo.svg.png",
+                    "slogan": "Sharing the World, Flying Together",
+                    "head_quaters": "376, Hsin-Nan Rd., Sec. 1, Luzhu, Taoyuan City, Taiwan",
+                    "website": "www.evaair.com",
+                    "established": "1989"
+                }
+            ],
+            "__v": 0
+        },
+        {
+            "_id": "60600687db9a53b68269dded",
+            "name": "John Doe",
+            "trips": 250,
+            "airline": [
+                {
+                    "id": 5,
+                    "name": "Eva Air",
+                    "country": "Taiwan",
+                    "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/ed/EVA_Air_logo.svg/250px-EVA_Air_logo.svg.png",
+                    "slogan": "Sharing the World, Flying Together",
+                    "head_quaters": "376, Hsin-Nan Rd., Sec. 1, Luzhu, Taoyuan City, Taiwan",
+                    "website": "www.evaair.com",
+                    "established": "1989"
+                }
+            ],
+            "__v": 0
+        },
+        {
+            "_id": "606007fedb9a53328e69ddee",
+            "name": "John Doe",
+            "trips": 250,
+            "airline": [
+                {
+                    "id": 5,
+                    "name": "Eva Air",
+                    "country": "Taiwan",
+                    "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/ed/EVA_Air_logo.svg/250px-EVA_Air_logo.svg.png",
+                    "slogan": "Sharing the World, Flying Together",
+                    "head_quaters": "376, Hsin-Nan Rd., Sec. 1, Luzhu, Taoyuan City, Taiwan",
+                    "website": "www.evaair.com",
+                    "established": "1989"
+                }
+            ],
+            "__v": 0
+        },
+        {
+            "_id": "60600aa2db9a5365c369ddef",
+            "name": "John Doe",
+            "trips": 250,
+            "airline": [
+                {
+                    "id": 5,
+                    "name": "Eva Air",
+                    "country": "Taiwan",
+                    "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/ed/EVA_Air_logo.svg/250px-EVA_Air_logo.svg.png",
+                    "slogan": "Sharing the World, Flying Together",
+                    "head_quaters": "376, Hsin-Nan Rd., Sec. 1, Luzhu, Taoyuan City, Taiwan",
+                    "website": "www.evaair.com",
+                    "established": "1989"
+                }
+            ],
+            "__v": 0
+        }
+    ]
+}

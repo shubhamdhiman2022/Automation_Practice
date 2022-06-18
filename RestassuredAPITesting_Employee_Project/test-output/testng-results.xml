@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-05-20T21:51:45 IST" name="EmployeeRestAPI&#039;sTest" finished-at="2022-05-20T21:51:48 IST" duration-ms="3197">
+    <groups>
+    </groups>
+    <test started-at="2022-05-20T21:51:45 IST" name="Test" finished-at="2022-05-20T21:51:48 IST" duration-ms="3197">
+      <class name="employee.testCases.TC001_Get_All_Employees">
+        <test-method is-config="true" signature="setup()[pri:0, instance:employee.testCases.TC001_Get_All_Employees@56620197]" started-at="2022-05-20T21:51:45 IST" name="setup" finished-at="2022-05-20T21:51:45 IST" duration-ms="35" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="getAllEmployee()[pri:0, instance:employee.testCases.TC001_Get_All_Employees@56620197]" started-at="2022-05-20T21:51:45 IST" name="getAllEmployee" finished-at="2022-05-20T21:51:48 IST" duration-ms="2683" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllEmployee -->
+        <test-method signature="checkStatusCode()[pri:1, instance:employee.testCases.TC001_Get_All_Employees@56620197]" started-at="2022-05-20T21:51:48 IST" name="checkStatusCode" finished-at="2022-05-20T21:51:48 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method signature="checkResposeBody()[pri:2, instance:employee.testCases.TC001_Get_All_Employees@56620197]" started-at="2022-05-20T21:51:48 IST" name="checkResposeBody" finished-at="2022-05-20T21:51:48 IST" depends-on-methods="employee.testCases.TC001_Get_All_Employees.checkStatusCode" duration-ms="103" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResposeBody -->
+        <test-method signature="checkResponseTime()[pri:3, instance:employee.testCases.TC001_Get_All_Employees@56620197]" started-at="2022-05-20T21:51:48 IST" name="checkResponseTime" finished-at="2022-05-20T21:51:48 IST" depends-on-methods="employee.testCases.TC001_Get_All_Employees.checkStatusCode" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseTime -->
+        <test-method signature="checkstatusLine()[pri:4, instance:employee.testCases.TC001_Get_All_Employees@56620197]" started-at="2022-05-20T21:51:48 IST" name="checkstatusLine" finished-at="2022-05-20T21:51:48 IST" depends-on-methods="employee.testCases.TC001_Get_All_Employees.checkStatusCode" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkstatusLine -->
+        <test-method signature="checkContentType()[pri:5, instance:employee.testCases.TC001_Get_All_Employees@56620197]" started-at="2022-05-20T21:51:48 IST" name="checkContentType" finished-at="2022-05-20T21:51:48 IST" depends-on-methods="employee.testCases.TC001_Get_All_Employees.checkStatusCode" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentType -->
+        <test-method signature="checkContentLenght()[pri:6, instance:employee.testCases.TC001_Get_All_Employees@56620197]" started-at="2022-05-20T21:51:48 IST" name="checkContentLenght" finished-at="2022-05-20T21:51:48 IST" depends-on-methods="employee.testCases.TC001_Get_All_Employees.checkStatusCode" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentLenght -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:employee.testCases.TC001_Get_All_Employees@56620197]" started-at="2022-05-20T21:51:48 IST" name="tearDown" finished-at="2022-05-20T21:51:48 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- employee.testCases.TC001_Get_All_Employees -->
+    </test> <!-- Test -->
+  </suite> <!-- EmployeeRestAPI'sTest -->
+</testng-results>

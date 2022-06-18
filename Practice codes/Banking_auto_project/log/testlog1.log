@@ -1,0 +1,4 @@
+2022-04-07 14:20:59,952 [main] INFO banking - URL is opened
+2022-04-07 14:21:02,496 [main] INFO banking - Entered username
+2022-04-07 14:21:02,728 [main] INFO banking - Entered password
+2022-04-07 14:21:06,375 [main] INFO banking - Login test passed

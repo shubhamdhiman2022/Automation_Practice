@@ -1,0 +1,43 @@
+2022-04-29 15:04:29 INFO  Airline Rest API:26 - *********TC002_Get_Single_Airline_Record**********
+2022-04-29 15:04:31 INFO  Airline Rest API:35 - ***********Checking Respose Code**********
+2022-04-29 15:04:31 INFO  Airline Rest API:37 - Status Code: 200
+2022-04-29 15:04:31 INFO  Airline Rest API:54 - *********Finished TC001_Get_All_Airlines**********
+2022-04-29 15:05:58 INFO  Airline Rest API:26 - *********TC002_Get_Single_Airline_Record**********
+2022-04-29 15:06:01 INFO  Airline Rest API:44 - ***********Checking Respose Body**********
+2022-04-29 15:06:01 INFO  Airline Rest API:47 - Response Body: {
+    "id": 9853,
+    "name": "QA Airways",
+    "country": "India",
+    "logo": "https://picsum.photos/200",
+    "slogan": "Be Extensive be offsour",
+    "head_quaters": "India, Usa",
+    "website": "www.dummywebsite.com",
+    "established": "2022"
+}
+2022-04-29 15:06:01 INFO  Airline Rest API:35 - ***********Checking Respose Code**********
+2022-04-29 15:06:01 INFO  Airline Rest API:37 - Status Code: 200
+2022-04-29 15:06:01 INFO  Airline Rest API:55 - *********Finished TC001_Get_All_Airlines**********
+2022-05-09 16:41:29 INFO  Airline Rest API:26 - *********TC002_Get_Single_Airline_Record**********
+2022-05-09 16:41:38 INFO  Airline Rest API:35 - ***********  Checking Status Code **********
+2022-05-09 16:41:38 INFO  Airline Rest API:37 - Status Code is : 200
+2022-05-09 16:41:38 INFO  Airline Rest API:44 - ***********  Checking Respose Body **********
+2022-05-09 16:41:38 INFO  Airline Rest API:47 - Response Body is : {
+    "id": 9853,
+    "name": "QA Airways",
+    "country": "India",
+    "logo": "https://picsum.photos/200",
+    "slogan": "Be Extensive be offsour",
+    "head_quaters": "India, Usa",
+    "website": "www.dummywebsite.com",
+    "established": "2022"
+}
+2022-05-09 16:41:38 INFO  Airline Rest API:55 - ***********  Checking Response Time **********
+2022-05-09 16:41:38 INFO  Airline Rest API:58 - Response Time is : 7036
+2022-05-09 16:41:38 WARN  Airline Rest API:61 - Response Time is greater than 2000
+2022-05-09 16:41:38 INFO  Airline Rest API:69 - ***********  Checking Status Line **********
+2022-05-09 16:41:38 INFO  Airline Rest API:72 - Status Line is : HTTP/1.1 200 OK
+2022-05-09 16:41:38 INFO  Airline Rest API:79 - ***********  Checking Content Type **********
+2022-05-09 16:41:38 INFO  Airline Rest API:82 - Content type is : application/json; charset=utf-8
+2022-05-09 16:41:38 INFO  Airline Rest API:89 - ***********  Checking Content Lenght**********
+2022-05-09 16:41:38 INFO  Airline Rest API:92 - Content Length is : 201
+2022-05-09 16:41:38 INFO  Airline Rest API:104 - *********Finished TC001_Get_All_Airlines**********

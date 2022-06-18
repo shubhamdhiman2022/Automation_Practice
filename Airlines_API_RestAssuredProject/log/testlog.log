@@ -1,0 +1,281 @@
+2022-05-20 16:42:42,223 - Airline Rest API -INFO - ***********  Checking Response Time **********
+2022-05-20 16:42:42,226 - Airline Rest API -INFO - Response Time is : 31420
+2022-05-20 16:42:42,226 - Airline Rest API -WARN - Response Time is greater than 2000
+2022-05-20 16:42:42,233 - Airline Rest API -INFO - ***********  Checking Status Line **********
+2022-05-20 16:42:42,234 - Airline Rest API -INFO - Status Line is : HTTP/1.1 200 OK
+2022-05-20 16:42:42,238 - Airline Rest API -INFO - ***********  Checking Content Type **********
+2022-05-20 16:42:42,238 - Airline Rest API -INFO - Content type is : application/json; charset=utf-8
+2022-05-20 16:42:42,243 - Airline Rest API -INFO - ***********  Checking Content Lenght**********
+2022-05-20 16:42:42,244 - Airline Rest API -INFO - Content Length is : 2658660
+2022-05-20 16:42:42,249 - Airline Rest API -INFO - *********Finished TC001_Get_All_Airlines**********
+2022-05-20 16:42:42,261 - Airline Rest API -INFO - *********TC002_Get_Single_Airline_Record**********
+2022-05-20 16:42:43,014 - Airline Rest API -INFO - ***********  Checking Status Code **********
+2022-05-20 16:42:43,016 - Airline Rest API -INFO - Status Code is : 200
+2022-05-20 16:42:43,025 - Airline Rest API -INFO - ***********  Checking Respose Body **********
+2022-05-20 16:42:43,027 - Airline Rest API -INFO - Response Body is : {
+    "id": 9853,
+    "name": "QA Airways",
+    "country": "India",
+    "logo": "https://picsum.photos/200",
+    "slogan": "Be Extensive be offsour",
+    "head_quaters": "India, Usa",
+    "website": "www.dummywebsite.com",
+    "established": "2022"
+}
+2022-05-20 16:42:43,033 - Airline Rest API -INFO - ***********  Checking Response Time **********
+2022-05-20 16:42:43,034 - Airline Rest API -INFO - Response Time is : 739
+2022-05-20 16:42:43,037 - Airline Rest API -INFO - ***********  Checking Status Line **********
+2022-05-20 16:42:43,038 - Airline Rest API -INFO - Status Line is : HTTP/1.1 200 OK
+2022-05-20 16:42:43,040 - Airline Rest API -INFO - ***********  Checking Content Type **********
+2022-05-20 16:42:43,041 - Airline Rest API -INFO - Content type is : application/json; charset=utf-8
+2022-05-20 16:42:43,043 - Airline Rest API -INFO - ***********  Checking Content Lenght**********
+2022-05-20 16:42:43,044 - Airline Rest API -INFO - Content Length is : 201
+2022-05-20 16:42:43,045 - Airline Rest API -INFO - *********Finished TC002_Get_Single_Airline_Record**********
+2022-05-20 16:42:43,051 - Airline Rest API -INFO - *********Started TC003_Post_Airline_Record**********
+2022-05-20 16:42:43,820 - Airline Rest API -INFO - ***********  Checking Status Code **********
+2022-05-20 16:42:43,821 - Airline Rest API -INFO - Status Code is : 200
+2022-05-20 16:42:43,828 - Airline Rest API -INFO - ***********  Checking Respose Body **********
+2022-05-20 16:42:43,833 - Airline Rest API -INFO - Response Body is : {
+    "_id": "628777ab247aeb36b3840d6d",
+    "id": 4565,
+    "name": "QA Airways RestAssured testing",
+    "country": "India",
+    "logo": "https://picsum.photos/200",
+    "slogan": "This is testing slogan RestAssured testing",
+    "head_quaters": "India, Canada",
+    "website": "www.dummyqawebsite.com",
+    "established": "2022",
+    "__v": 0
+}
+2022-05-20 16:42:43,862 - Airline Rest API -INFO - ***********  Checking Response Time **********
+2022-05-20 16:42:43,862 - Airline Rest API -INFO - Response Time is : 751
+2022-05-20 16:42:43,866 - Airline Rest API -INFO - ***********  Checking Status Line **********
+2022-05-20 16:42:43,866 - Airline Rest API -INFO - Status Line is : HTTP/1.1 200 OK
+2022-05-20 16:42:43,870 - Airline Rest API -INFO - ***********  Checking Content Type **********
+2022-05-20 16:42:43,870 - Airline Rest API -INFO - Content type is : application/json; charset=utf-8
+2022-05-20 16:42:43,874 - Airline Rest API -INFO - ***********  Checking Content Lenght**********
+2022-05-20 16:42:43,875 - Airline Rest API -INFO - Content Length is : 286
+2022-05-20 16:42:43,878 - Airline Rest API -INFO - *********Finished TC003_Post_Airline_Record**********
+2022-05-20 16:42:43,892 - Airline Rest API -INFO - *********Started TC004_Get_Passenger_By_ID**********
+2022-05-20 16:42:44,612 - Airline Rest API -INFO - ***********  Checking Status Code **********
+2022-05-20 16:42:44,612 - Airline Rest API -INFO - Status Code is : 200
+2022-05-20 16:42:44,615 - Airline Rest API -INFO - ***********  Checking Respose Body **********
+2022-05-20 16:42:44,616 - Airline Rest API -INFO - Response Body is : {
+    "_id": "628771c9247aeb2acf840c3f",
+    "name": "QA Shubham",
+    "trips": 10,
+    "airline": [
+        {
+            "_id": "626a82421bbbdd2361b46e5e",
+            "id": 9853,
+            "name": "QA Airways",
+            "country": "India",
+            "logo": "https://picsum.photos/200",
+            "slogan": "Be Extensive be offsour",
+            "head_quaters": "India, Usa",
+            "website": "www.dummywebsite.com",
+            "established": "2022",
+            "__v": 0
+        }
+    ],
+    "__v": 0
+}
+2022-05-20 16:42:44,618 - Airline Rest API -INFO - ***********  Checking Response Time **********
+2022-05-20 16:42:44,619 - Airline Rest API -INFO - Response Time is : 713
+2022-05-20 16:42:44,621 - Airline Rest API -INFO - ***********  Checking Status Line **********
+2022-05-20 16:42:44,621 - Airline Rest API -INFO - Status Line is : HTTP/1.1 200 OK
+2022-05-20 16:42:44,623 - Airline Rest API -INFO - ***********  Checking Content Type **********
+2022-05-20 16:42:44,624 - Airline Rest API -INFO - Content type is : application/json; charset=utf-8
+2022-05-20 16:42:44,628 - Airline Rest API -INFO - ***********  Checking Content Lenght**********
+2022-05-20 16:42:44,628 - Airline Rest API -INFO - Content Length is : 328
+2022-05-20 16:42:44,630 - Airline Rest API -INFO - *********Finished TC004_Get_Passenger_By_ID**********
+2022-05-20 16:42:44,635 - Airline Rest API -INFO - *********Started TC005_Post_Passenger_Record**********
+2022-05-20 16:42:45,375 - Airline Rest API -INFO - ***********  Checking Status Code **********
+2022-05-20 16:42:45,375 - Airline Rest API -INFO - Status Code is : 200
+2022-05-20 16:42:45,378 - Airline Rest API -INFO - ***********  Checking Respose Body **********
+2022-05-20 16:42:45,379 - Airline Rest API -INFO - Response Body is : {
+    "_id": "628777ad247aeb0d9b840d74",
+    "name": "Shubham Dhiman RestAssuredAPI",
+    "trips": 123,
+    "airline": [
+        {
+            "_id": "628777ab247aeb36b3840d6d",
+            "id": 4565,
+            "name": "QA Airways RestAssured testing",
+            "country": "India",
+            "logo": "https://picsum.photos/200",
+            "slogan": "This is testing slogan RestAssured testing",
+            "head_quaters": "India, Canada",
+            "website": "www.dummyqawebsite.com",
+            "established": "2022",
+            "__v": 0
+        }
+    ],
+    "__v": 0
+}
+2022-05-20 16:42:46,093 - Airline Rest API -INFO - ***********  Checking Response Time **********
+2022-05-20 16:42:46,095 - Airline Rest API -INFO - Response Time is : 732
+2022-05-20 16:42:46,101 - Airline Rest API -INFO - ***********  Checking Status Line **********
+2022-05-20 16:42:46,101 - Airline Rest API -INFO - Status Line is : HTTP/1.1 200 OK
+2022-05-20 16:42:46,105 - Airline Rest API -INFO - ***********  Checking Content Type **********
+2022-05-20 16:42:46,106 - Airline Rest API -INFO - Content type is : application/json; charset=utf-8
+2022-05-20 16:42:46,110 - Airline Rest API -INFO - ***********  Checking Content Lenght**********
+2022-05-20 16:42:46,111 - Airline Rest API -INFO - Content Length is : 392
+2022-05-20 16:42:46,128 - Airline Rest API -INFO - *********Finished TC005_Post_Passenger_Record**********
+2022-05-20 16:42:46,138 - Airline Rest API -INFO - *********Started TC006_Put_Passenger_By_ID**********
+2022-05-20 16:42:46,945 - Airline Rest API -INFO - ***********  Checking Status Code **********
+2022-05-20 16:42:46,946 - Airline Rest API -INFO - Status Code is : 200
+2022-05-20 16:42:46,950 - Airline Rest API -INFO - ***********  Checking Respose Body **********
+2022-05-20 16:42:46,951 - Airline Rest API -INFO - Response Body is : {
+    "message": "Passenger data put successfully completed."
+}
+2022-05-20 16:42:46,974 - Airline Rest API -INFO - ***********  Checking Response Time **********
+2022-05-20 16:42:46,975 - Airline Rest API -INFO - Response Time is : 765
+2022-05-20 16:42:46,977 - Airline Rest API -INFO - ***********  Checking Status Line **********
+2022-05-20 16:42:46,977 - Airline Rest API -INFO - Status Line is : HTTP/1.1 200 OK
+2022-05-20 16:42:46,979 - Airline Rest API -INFO - ***********  Checking Content Type **********
+2022-05-20 16:42:46,980 - Airline Rest API -INFO - Content type is : application/json; charset=utf-8
+2022-05-20 16:42:46,982 - Airline Rest API -INFO - ***********  Checking Content Lenght**********
+2022-05-20 16:42:46,982 - Airline Rest API -INFO - Content Length is : 56
+2022-05-20 16:42:46,983 - Airline Rest API -INFO - *********Finished TC006_Put_Passenger_By_ID**********
+2022-05-20 16:42:46,990 - Airline Rest API -INFO - *********Started TC007_Patch_Passenger_By_ID**********
+2022-05-20 16:42:47,731 - Airline Rest API -INFO - ***********  Checking Status Code **********
+2022-05-20 16:42:47,731 - Airline Rest API -INFO - Status Code is : 200
+2022-05-20 16:42:47,736 - Airline Rest API -INFO - ***********  Checking Respose Body **********
+2022-05-20 16:42:47,737 - Airline Rest API -INFO - Response Body is : {
+    "message": "Passenger data updated successfully."
+}
+2022-05-20 16:42:47,756 - Airline Rest API -INFO - ***********  Checking Response Time **********
+2022-05-20 16:42:47,756 - Airline Rest API -INFO - Response Time is : 735
+2022-05-20 16:42:47,760 - Airline Rest API -INFO - ***********  Checking Status Line **********
+2022-05-20 16:42:47,760 - Airline Rest API -INFO - Status Line is : HTTP/1.1 200 OK
+2022-05-20 16:42:47,767 - Airline Rest API -INFO - ***********  Checking Content Type **********
+2022-05-20 16:42:47,767 - Airline Rest API -INFO - Content type is : application/json; charset=utf-8
+2022-05-20 16:42:47,776 - Airline Rest API -INFO - ***********  Checking Content Lenght**********
+2022-05-20 16:42:47,777 - Airline Rest API -INFO - Content Length is : 50
+2022-05-20 16:42:47,782 - Airline Rest API -INFO - *********Finished TC007_Patch_Passenger_By_ID**********
+2022-05-20 16:42:47,788 - Airline Rest API -INFO - *********Started TC008_Delete_Passenger_By_ID**********
+2022-05-20 16:42:48,525 - Airline Rest API -INFO - ***********  Checking Status Code **********
+2022-05-20 16:42:48,525 - Airline Rest API -INFO - Status Code is : 200
+2022-05-20 16:42:48,528 - Airline Rest API -INFO - ***********  Checking Respose Body **********
+2022-05-20 16:42:48,528 - Airline Rest API -INFO - Response Body is : {
+    "message": "Passenger data deleted successfully."
+}
+2022-05-20 16:42:48,543 - Airline Rest API -INFO - ***********  Checking Response Time **********
+2022-05-20 16:42:48,543 - Airline Rest API -INFO - Response Time is : 733
+2022-05-20 16:42:48,545 - Airline Rest API -INFO - ***********  Checking Status Line **********
+2022-05-20 16:42:48,545 - Airline Rest API -INFO - Status Line is : HTTP/1.1 200 OK
+2022-05-20 16:42:48,550 - Airline Rest API -INFO - ***********  Checking Content Type **********
+2022-05-20 16:42:48,550 - Airline Rest API -INFO - Content type is : application/json; charset=utf-8
+2022-05-20 16:42:48,552 - Airline Rest API -INFO - ***********  Checking Content Lenght**********
+2022-05-20 16:42:48,553 - Airline Rest API -INFO - Content Length is : 50
+2022-05-20 16:42:48,554 - Airline Rest API -INFO - *********Finished TC008_Delete_Passenger_By_ID**********
+2022-05-20 16:42:48,559 - Airline Rest API -INFO - *********Started TC009_Get_All_Passengers**********
+2022-05-20 16:42:49,316 - Airline Rest API -INFO - ***********  Checking Status Code **********
+2022-05-20 16:42:49,317 - Airline Rest API -INFO - Status Code is : 200
+2022-05-20 16:42:49,320 - Airline Rest API -INFO - ***********  Checking Respose Body **********
+2022-05-20 16:42:49,323 - Airline Rest API -INFO - Response Body is : {
+    "totalPassengers": 110354,
+    "totalPages": 22071,
+    "data": [
+        {
+            "_id": "606005badb9a53405069ddec",
+            "name": "John Doe",
+            "trips": 250,
+            "airline": [
+                {
+                    "id": 5,
+                    "name": "Eva Air",
+                    "country": "Taiwan",
+                    "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/ed/EVA_Air_logo.svg/250px-EVA_Air_logo.svg.png",
+                    "slogan": "Sharing the World, Flying Together",
+                    "head_quaters": "376, Hsin-Nan Rd., Sec. 1, Luzhu, Taoyuan City, Taiwan",
+                    "website": "www.evaair.com",
+                    "established": "1989"
+                }
+            ],
+            "__v": 0
+        },
+        {
+            "_id": "60600687db9a53b68269dded",
+            "name": "John Doe",
+            "trips": 250,
+            "airline": [
+                {
+                    "id": 5,
+                    "name": "Eva Air",
+                    "country": "Taiwan",
+                    "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/ed/EVA_Air_logo.svg/250px-EVA_Air_logo.svg.png",
+                    "slogan": "Sharing the World, Flying Together",
+                    "head_quaters": "376, Hsin-Nan Rd., Sec. 1, Luzhu, Taoyuan City, Taiwan",
+                    "website": "www.evaair.com",
+                    "established": "1989"
+                }
+            ],
+            "__v": 0
+        },
+        {
+            "_id": "606007fedb9a53328e69ddee",
+            "name": "John Doe",
+            "trips": 250,
+            "airline": [
+                {
+                    "id": 5,
+                    "name": "Eva Air",
+                    "country": "Taiwan",
+                    "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/ed/EVA_Air_logo.svg/250px-EVA_Air_logo.svg.png",
+                    "slogan": "Sharing the World, Flying Together",
+                    "head_quaters": "376, Hsin-Nan Rd., Sec. 1, Luzhu, Taoyuan City, Taiwan",
+                    "website": "www.evaair.com",
+                    "established": "1989"
+                }
+            ],
+            "__v": 0
+        },
+        {
+            "_id": "60600aa2db9a5365c369ddef",
+            "name": "John Doe",
+            "trips": 250,
+            "airline": [
+                {
+                    "id": 5,
+                    "name": "Eva Air",
+                    "country": "Taiwan",
+                    "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/ed/EVA_Air_logo.svg/250px-EVA_Air_logo.svg.png",
+                    "slogan": "Sharing the World, Flying Together",
+                    "head_quaters": "376, Hsin-Nan Rd., Sec. 1, Luzhu, Taoyuan City, Taiwan",
+                    "website": "www.evaair.com",
+                    "established": "1989"
+                }
+            ],
+            "__v": 0
+        },
+        {
+            "_id": "60600abedb9a5361e869ddf0",
+            "name": "John Doe",
+            "trips": 250,
+            "airline": [
+                {
+                    "id": 5,
+                    "name": "Eva Air",
+                    "country": "Taiwan",
+                    "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/ed/EVA_Air_logo.svg/250px-EVA_Air_logo.svg.png",
+                    "slogan": "Sharing the World, Flying Together",
+                    "head_quaters": "376, Hsin-Nan Rd., Sec. 1, Luzhu, Taoyuan City, Taiwan",
+                    "website": "www.evaair.com",
+                    "established": "1989"
+                }
+            ],
+            "__v": 0
+        }
+    ]
+}
+2022-05-20 16:42:49,352 - Airline Rest API -INFO - ***********  Checking Response Time **********
+2022-05-20 16:42:49,352 - Airline Rest API -INFO - Response Time is : 748
+2022-05-20 16:42:49,359 - Airline Rest API -INFO - ***********  Checking Status Line **********
+2022-05-20 16:42:49,360 - Airline Rest API -INFO - Status Line is : HTTP/1.1 200 OK
+2022-05-20 16:42:49,364 - Airline Rest API -INFO - ***********  Checking Content Type **********
+2022-05-20 16:42:49,365 - Airline Rest API -INFO - Content type is : application/json; charset=utf-8
+2022-05-20 16:42:49,371 - Airline Rest API -INFO - ***********  Checking Content Lenght**********
+2022-05-20 16:42:49,371 - Airline Rest API -INFO - Content Length is : 2064
+2022-05-20 16:42:49,373 - Airline Rest API -INFO - *********Finished TC009_Get_All_Passengers**********

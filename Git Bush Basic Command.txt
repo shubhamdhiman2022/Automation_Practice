@@ -1,0 +1,58 @@
+deftsoft@Web-QA-56 MINGW64 ~/Desktop/Git tutorial
+$ git init
+Initialized empty Git repository in C:/Users/deftsoft/Desktop/Git tutorial/.git/
+=================================================================================
+=================================================================================
+deftsoft@Web-QA-56 MINGW64 ~/Desktop/Git tutorial (master)
+$ git remote add origin https://github.com/qa2deftsoft/EmployeeRestAPI.git
+=================================================================================
+=================================================================================
+deftsoft@Web-QA-56 MINGW64 ~/Desktop/Git tutorial (master)
+$ git fetch origin
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), 600 bytes | 4.00 KiB/s, done.
+From https://github.com/qa2deftsoft/EmployeeRestAPI
+ * [new branch]      main       -> origin/main
+ =================================================================================
+ =================================================================================
+ deftsoft@Web-QA-56 MINGW64 ~/Desktop/Git tutorial (master)
+$ git checkout main
+Switched to a new branch 'main'
+branch 'main' set up to track 'origin/main'.
+=================================================================================
+=================================================================================
+deftsoft@Web-QA-56 MINGW64 ~/Desktop/Git tutorial (main)
+$ git add .
+warning: LF will be replaced by CRLF in RestassuredAPITesting_Employee_Project/test-output/testng-reports1.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in RestassuredAPITesting_Employee_Project/test-output/testng-reports2.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in RestassuredAPITesting_Employee_Project/test-output/testng-results.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in RestassuredAPITesting_Employee_Project/test-output/testng.css.
+The file will have its original line endings in your working directory
+=================================================================================
+=================================================================================
+deftsoft@Web-QA-56 MINGW64 ~/Desktop/Git tutorial (main)
+$ git commit -m "test"
+[main 8833549] test
+ 113 files changed, 10501 insertions(+)
+ create mode 100644 RestassuredAPITesting_Employee_Project/.classpath
+ create mode 100644 RestassuredAPITesting_Employee_Project/.project
+ create mode 100644 RestassuredAPITesting_Employee_Project/.settings/org.eclipse.jdt.core.prefs
+ create mode 100644 RestassuredAPITesting_Employee_Project/.settings/org.eclipse.m2e.core.prefs
+=================================================================================
+=================================================================================
+deftsoft@Web-QA-56 MINGW64 ~/Desktop/Git tutorial (main)
+$ git push origin main
+Enumerating objects: 124, done.
+Counting objects: 100% (124/124), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (105/105), done.
+Writing objects: 100% (123/123), 89.67 KiB | 1.95 MiB/s, done.
+Total 123 (delta 40), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (40/40), done.
+To https://github.com/qa2deftsoft/EmployeeRestAPI.git
+   77bda25..8833549  main -> main

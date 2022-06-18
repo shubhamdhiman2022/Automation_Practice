@@ -1,0 +1,14 @@
+The advantages of serialization are: 
+
+It is easy to use and can be customized. 
+The serialized stream can be encrypted, authenticated and compressed, supporting the needs of secure Java computing. 
+Serialized classes can support coherent versioning and are flexible enough to allow gradual evolution of your application's object schema. 
+Serialization can also be used as a mechanism for exchanging objects between Java and C++ libraries, using third party vendor libraries (like RogueWave's Tools.h++ ) within C++. 
+There are simply too many critical technologies that rely upon serialization, including RMI, JavaBeans and EJB. 
+
+and there is disadvantages too: 
+
+It should ideally not be used with large-sized objects, as it offers significant overhead. Large objects also significantly increase the memory requirements of your application since the object input/output streams cache live references to all objects written to or read from the stream until the stream is closed or reset. Consequently, the garbage collection of these objects can be inordinately delayed. 
+The Serializable interface does not offer fine-grained control over object access - although you can somewhat circumvent this issue by implementing the complex Externalizable interface, instead. 
+Since serialization does not offer any transaction control mechanisms per se, it is not suitable for use within applications needing concurrent access without making use of additional APIs. 
+

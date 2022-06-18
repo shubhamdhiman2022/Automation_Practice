@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-05-26T16:50:08 IST" name="Default suite" finished-at="2022-05-26T16:50:20 IST" duration-ms="11301">
+    <groups>
+    </groups>
+    <test started-at="2022-05-26T16:50:08 IST" name="Default test" finished-at="2022-05-26T16:50:20 IST" duration-ms="11301">
+      <class name="restAssured.testCases.API_Collection_Test">
+        <test-method is-config="true" signature="startTest()[pri:0, instance:restAssured.testCases.API_Collection_Test@3d74bf60]" started-at="2022-05-26T16:50:08 IST" name="startTest" finished-at="2022-05-26T16:50:09 IST" duration-ms="751" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="createAirlineAPI()[pri:1, instance:restAssured.testCases.API_Collection_Test@3d74bf60]" started-at="2022-05-26T16:50:09 IST" name="createAirlineAPI" finished-at="2022-05-26T16:50:12 IST" duration-ms="2873" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAirlineAPI -->
+        <test-method signature="getAirlineByIdAPI()[pri:2, instance:restAssured.testCases.API_Collection_Test@3d74bf60]" started-at="2022-05-26T16:50:12 IST" name="getAirlineByIdAPI" finished-at="2022-05-26T16:50:14 IST" depends-on-methods="restAssured.testCases.API_Collection_Test.createAirlineAPI" duration-ms="1881" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAirlineByIdAPI -->
+        <test-method signature="createPassengerAPI()[pri:3, instance:restAssured.testCases.API_Collection_Test@3d74bf60]" started-at="2022-05-26T16:50:14 IST" name="createPassengerAPI" finished-at="2022-05-26T16:50:15 IST" depends-on-methods="restAssured.testCases.API_Collection_Test.getAirlineByIdAPI" duration-ms="1479" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPassengerAPI -->
+        <test-method signature="getPassengerByIdAPI()[pri:4, instance:restAssured.testCases.API_Collection_Test@3d74bf60]" started-at="2022-05-26T16:50:15 IST" name="getPassengerByIdAPI" finished-at="2022-05-26T16:50:16 IST" depends-on-methods="restAssured.testCases.API_Collection_Test.createPassengerAPI" duration-ms="822" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPassengerByIdAPI -->
+        <test-method signature="updatePassengerPartialAPI()[pri:5, instance:restAssured.testCases.API_Collection_Test@3d74bf60]" started-at="2022-05-26T16:50:16 IST" name="updatePassengerPartialAPI" finished-at="2022-05-26T16:50:17 IST" depends-on-methods="restAssured.testCases.API_Collection_Test.getPassengerByIdAPI" duration-ms="832" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updatePassengerPartialAPI -->
+        <test-method signature="updatePassengeFullyAPI()[pri:6, instance:restAssured.testCases.API_Collection_Test@3d74bf60]" started-at="2022-05-26T16:50:17 IST" name="updatePassengeFullyAPI" finished-at="2022-05-26T16:50:18 IST" depends-on-methods="restAssured.testCases.API_Collection_Test.getPassengerByIdAPI" duration-ms="874" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updatePassengeFullyAPI -->
+        <test-method signature="deletePassenger()[pri:7, instance:restAssured.testCases.API_Collection_Test@3d74bf60]" started-at="2022-05-26T16:50:18 IST" name="deletePassenger" finished-at="2022-05-26T16:50:19 IST" depends-on-methods="restAssured.testCases.API_Collection_Test.getPassengerByIdAPI" duration-ms="828" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deletePassenger -->
+        <test-method signature="getAllPassengersData()[pri:8, instance:restAssured.testCases.API_Collection_Test@3d74bf60]" started-at="2022-05-26T16:50:19 IST" name="getAllPassengersData" finished-at="2022-05-26T16:50:20 IST" depends-on-methods="restAssured.testCases.API_Collection_Test.getPassengerByIdAPI" duration-ms="895" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllPassengersData -->
+      </class> <!-- restAssured.testCases.API_Collection_Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
